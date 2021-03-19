@@ -1,7 +1,7 @@
-action = {
-  type:'CREATE_EVENT',
-  title
-}
+// action = {
+//   type:'CREATE_EVENT',
+//   title
+// }
 
 const events = (state = [], action) =>{
   switch(action.type) {
@@ -18,3 +18,5 @@ const events = (state = [], action) =>{
       return state
   }
 }
+
+export default events
