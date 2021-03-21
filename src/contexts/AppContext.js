@@ -1,4 +1,4 @@
-import {ceateContext} from 'react'
+import {createContext} from 'react'
 
 const AppContext = createContext()
 
